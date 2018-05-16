@@ -1,0 +1,1 @@
+echo "GET http://localhost:3000/restaurants/${RANDOM%9999999}" | vegeta attack -duration=90s -rate=700 | vegeta report;

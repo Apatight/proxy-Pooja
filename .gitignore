@@ -1,0 +1,17 @@
+## MAC files ##
+.DS_Store
+newrelic.js
+*.env
+
+## NPM ##
+npm
+npm-debug.log
+node_modules/
+
+## OUT OF DATE FILES ##
+*.rdb
+
+## LOAD TESTING ##
+newrelic.js
+## loader.io ##
+loaderio*
